@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+       
+            <bean class="com.seenu.student" id="h1"></bean>
+            <bean class="com.seenu.student" id="h2"></bean>
+            <bean class="com.seenu.student" id="h3"></bean>    
+            <bean class="com.seenu.student" id="h4"></bean>
+            <bean class="com.seenu.student" id="h5"></bean>
+            <bean class="com.seenu.student" id="h6"></bean>
+            
+           <!-- <bean class="com.seenu.employee" id="e1"></bean>
+            <bean class="com.seenu.employee" id="e2"></bean>
+            <bean class="com.seenu.employee" id="e3"></bean>
+            <bean class="com.seenu.employee" id="e4"></bean>
+            <bean class="com.seenu.employee" id="e5"></bean> --> 
+      
+ </beans>
