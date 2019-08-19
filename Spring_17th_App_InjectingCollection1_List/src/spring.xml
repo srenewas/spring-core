@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+       <bean class="com.seenu.student" id="stud">
+         <constructor-arg>
+         <list>
+            <value>J2SE</value>
+            <value>J2EE</value>
+            <value>SPRING</value>
+            <value>HYBERNATE</value>
+            <value>WEB SERVICES</value>
+            <value>MICRO SERVICES</value>         
+         </list>
+         </constructor-arg>
+
+       </bean>
+      
+ </beans>
