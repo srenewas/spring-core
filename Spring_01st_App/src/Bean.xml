@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+  <bean id="sri" class="com.seenu.Bean">
+        <property name="id" value="007"/>
+        <property name="name" value="SEENU"/>
+        <property name="gender" value="M"/>
+  </bean>
+  
+  <bean id="nu" class="com.seenu.Bean">
+        <property name="id" value="143"/>
+        <property name="name" value="SUHAS"/>
+        <property name="gender" value="M"/>
+  </bean>
+  
+  </beans>
